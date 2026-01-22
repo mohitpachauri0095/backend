@@ -13,4 +13,4 @@ setTimeout(sum, 5000);
 // let ab = setInterval(sum, 1000);
 
 console.log("D");
-console.log("E");
+console.log("E"); 
