@@ -6,7 +6,7 @@ console.log("B");
 //   let a=1;
 // }
 function sum(){
-console.log("C");    
+console.log("C");     
     return 1+2;
 }
 setTimeout(sum, 5000);
