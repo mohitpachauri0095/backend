@@ -8,7 +8,7 @@ console.log("B");
 function sum(){
 console.log("C");     
     return 1+2; 
-}  
+}    
 setTimeout(sum, 5000);
 // let ab = setInterval(sum, 1000);
 
