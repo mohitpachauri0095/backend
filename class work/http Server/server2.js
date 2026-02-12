@@ -17,7 +17,7 @@ const server = http.createServer((req, res) => {
   else if (method ==="POST" && pathname ==="/data"){let body ="";
     req.on("data",(chunk) => {
       body += chunk;
-    });
+    }); 
     req.on("end",() => {const parsed =JSON.parse(body);
       res.writeHead(201, {"Content-Type":"application/json" });
       res.end(JSON.stringify({message:"Data received",data: parsed,})
