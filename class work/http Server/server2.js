@@ -12,7 +12,7 @@ const server = http.createServer((req, res) => {
     res.end(JSON.stringify({message:"Search received",query: term}));
   }
   
-  // POST with body  
+  // POST with body   
   
   else if (method ==="POST" && pathname ==="/data"){let body ="";
     req.on("data",(chunk) => {
