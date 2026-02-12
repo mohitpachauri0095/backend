@@ -10,7 +10,7 @@ const server = http.createServer((req, res) => {
 		const term = query.get("q");
 		res.writeHead(200, {"Content-Type":"application/json" });
     res.end(JSON.stringify({message:"Search received",query: term}));
-  }
+  } 
   
   // POST with body   
   
