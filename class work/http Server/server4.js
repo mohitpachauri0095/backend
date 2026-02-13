@@ -27,7 +27,7 @@ const server = http.createServer((req, res) => {
 
     req.on("data", (chunk) => {
       body += chunk;
-    });
+    }); 
 
     req.on("end", () => {
       fs.writeFile("data.txt", body, () => {
