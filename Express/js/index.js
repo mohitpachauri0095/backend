@@ -1,9 +1,9 @@
-let express=require("express")
+const express = require('express');
+const app = express();
 
-let app=express()
-
-app.get("/",(req,res)=>{
-    res.send({status:1, msg: "home page api"})
+app.get("/" , (req , resp)=>{
+    resp.send("Hello Mohit Bhaii");
 })
-
-app.listen("8000")       
+app.listen(3000, ()=>{
+    console.log("Server running port on http://localhost:3000 ");
+})   
