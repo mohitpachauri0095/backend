@@ -11,4 +11,4 @@ router.getBlogByID = ("//:id", (req, res) => {
     res.send("ye lo is id wala blog");
 });
 
-module.exports = {sendBlogList, addNewBlog, sendBlogList};
+module.exports = {sendBlogList, addNewBlog, sendBlogList}; 
