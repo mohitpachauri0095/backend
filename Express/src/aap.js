@@ -1,11 +1,13 @@
-const express = require("express");
-const cors = require("cors");
-const postRouter = require("./routes/postRouter");
+const express = require('express');
+const postRouter = require('./routes/postRoutes');
+
 const app = express();
 
-app.use("/posts", postRouter);
+app.use(express.json());
+app.use('/posts', postRouter);
 
-app.get("/", (req, res) => {
-  res.send("Hi from the server");
+app.get('/', (req, res) => {
+    res.send('Hi from the server');
 });
+
 module.exports = app;

@@ -1,14 +1,17 @@
-const sendBlogList = ("/", (req, res) => {
-    res.send("ye lo saare blogs ki list");
-});
+const sendPosts = (req, res) => {
+    res.send('ye lo saare blogs ki list');
+};
 
-const addNewBlog = ("/", (req, res) => {
-    res.send("kr diya aapka blog post");
-});
+const createPost = (req, res) => {
+    res.send('kr diya aapka blog post');
+};
 
+const sendPostById = (req, res) => {
+    res.send(`ye lo is id wala blog: ${req.params.id}`);
+};
 
-router.getBlogByID = ("//:id", (req, res) => {
-    res.send("ye lo is id wala blog");
-});
-
-module.exports = {sendBlogList, addNewBlog, sendBlogList};    
+module.exports = {
+    sendPosts,
+    createPost,
+    sendPostById
+};
