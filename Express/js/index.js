@@ -4,6 +4,6 @@ const app = express();
 app.get("/" , (req , resp)=>{
     resp.send("Hello Mohit Bhaii");
 })
-app.listen(000, ()=>{
+app.listen(4000, ()=>{
     console.log("Server running port on http://localhost:3000 ");
 })    
