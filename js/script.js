@@ -25,3 +25,12 @@
 //     console.log("done");
 //   }
 // });
+
+const http = require ('http');
+const server = createserver((req, res) => {
+res.write("Hello mohit server is running now");
+res.end();
+});
+server.listen(3000, () => {
+    console.log("server running at https://localhost:3000/");
+});
