@@ -6,7 +6,7 @@
 
 ---    
 
-## 🧠 Backend Mindset.    
+## 🧠 Backend Mindset.       
 
 ```text
 Think → Build → Break → Debug → Improve
