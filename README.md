@@ -47,7 +47,7 @@ Full-Stack Development
 ```
 
 ---
-
+   
 ## 🎯 The Goal
 
 Not just learning how to write backend code.
