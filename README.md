@@ -14,7 +14,7 @@ Think → Build → Break → Debug → Improve
 
 Every concept I learn becomes something I try to **build with**.
 
----
+---  
 
 ## 🛠️ Core Stack
 
