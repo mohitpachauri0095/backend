@@ -36,7 +36,7 @@ JavaScript
 Node.js
      ↓
 Express.js
-     ↓
+     ↓ 
 MongoDB
      ↓
 REST APIs
